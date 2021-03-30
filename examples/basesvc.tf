@@ -9,7 +9,7 @@ module base-svc {
     }
   }
   route_config = {
-    hosts = ["basesvc.example.com"]
+    hosts = ["basesvc.example.com", "base1.svc.example.com"]
     paths = {
       all_route={
         path=["/"]
