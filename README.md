@@ -51,7 +51,7 @@ The user have to give only some basic details that will create all the things in
 
 ```
 module base-svc {
-  source = "../module/"
+  source = "vaibhavkhurana2018/kong-module/kong"
   name   = "base-svc"
   upstream_config = {
     targets = {
@@ -77,7 +77,7 @@ This will create a service for `basesvc.example.com` for all routes which will f
 
 ```
 module base-svc {
-  source = "../module/"
+  source = "vaibhavkhurana2018/kong-module/kong"
   name   = "base-svc"
   upstream_config = {
     targets = {
@@ -112,7 +112,7 @@ The plugin also supports a on/off switch with the `enabled=<true|false>` flag.
 
 ```
 module base-svc {
-  source = "../module/"
+  source = "vaibhavkhurana2018/kong-module/kong"
   name   = "base-svc"
   upstream_config = {
     targets = {
@@ -139,7 +139,7 @@ module base-svc {
 
 ```
 module base-svc {
-  source = "../module/"
+  source = "vaibhavkhurana2018/kong-module/kong"
   name   = "base-svc"
   upstream_config = {
     host = "base-svc.cluster.local"
@@ -163,7 +163,7 @@ module base-svc {
 
 ```
 module base-svc {
-  source = "../module/"
+  source = "vaibhavkhurana2018/kong-module/kong"
   name   = "base-svc"
   upstream_config = {
     targets = {
@@ -190,7 +190,7 @@ module base-svc {
 
 ```
 module base-svc {
-  source = "../module/"
+  source = "vaibhavkhurana2018/kong-module/kong"
   name   = "base-svc"
   upstream_config = {
     targets = {
