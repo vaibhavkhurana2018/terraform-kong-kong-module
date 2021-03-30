@@ -1,0 +1,9 @@
+version: 3
+automerge: false
+projects:
+  - name: test-atlantis
+    dir: examples
+    workspace: default
+    terraform_version: v0.12.20
+    autoplan:
+      enabled: true
